@@ -3,7 +3,7 @@ import os
 import bottle
 from sentry_sdk.integrations.bottle import BottleIntegration
 
-sentry_dns = "SENTRY_DNS"
+sentry_dns = os.environ.get('SENTRY_DNS')
 # sentry_dns = "https://04ebf20152fb484aa8d39a256702dbcb@sentry.io/1855958"
 app = bottle.Bottle()
 
