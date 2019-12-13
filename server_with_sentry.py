@@ -26,7 +26,7 @@ def index():
       Привет Всем, кто зашёл на данную страницу!
       </h1>
       <p style="font-size:25px;color:green;">Пройдите по ссылкам ниже,
-      чтобы потестировать работу данного сервера на 
+      чтобы посмотреть работу данного сервера совместно с 
       <span style="color:red;">SENTRY.IO</span>.</p>
       <p style="font-size:40px;">
       <a href="/success">SUCCESS</a> | <a href="/fail">FAIL</a>
