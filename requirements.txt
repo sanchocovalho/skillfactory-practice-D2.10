@@ -1,4 +1,4 @@
 bottle==0.12.18
 certifi==2019.9.11
 sentry-sdk==0.13.1
-urllib3==1.25.7
+urllib3==1.25.8
